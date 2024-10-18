@@ -1,0 +1,126 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* Change navbar text color */
+.navbar-dark .navbar-nav .nav-link {
+    color: black !important; /* Ensures the text is black */
+}
+
+/* Optional: Change navbar brand color */
+.navbar-dark .navbar-brand {
+    color: black !important; /* Makes the brand name black as well */
+}
+
+/* Change navbar text color on hover */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #555 !important; /* Optional: Darker shade on hover */
+}
+
+/* Optional: Make the navbar background lighter to contrast the black text */
+.navbarScroll {
+    background-color: #f8f9fa !important; /* Set navbar background to a light gray color */
+}
+
+
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; /* Optional: Adds a light background color */
+}
+
+.hero-content {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Optional: Limit the width of the content */
+}
+
+.hero-text {
+    text-align: left;
+    padding: 20px;
+    color: black; /* Change text color for better readability on light background */
+}
+
+.hero_title {
+    font-size: 4rem;
+}
+
+.hero_desc {
+    font-size: 1rem;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rounded-image {
+    width: 300px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the round shape */
+}
+
+
+/* spacing on all sections */
+/* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* social media icons styling */
+/* .social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+/* #footer {
+    background-color: #808080;
+    text-align: center;
+} */ 
+
+.portfolio-image {
+    height: 200px; /* Set a fixed height */
+    object-fit: contain; /* Ensures the image covers the area without distortion */
+}
+
